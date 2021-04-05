@@ -8,6 +8,9 @@ class Dog
     @this_dogs_name
   end
 
+ def sound=(dogs_sound)
+   @this_dogs_sound = dogs_sound
+ end
   def bark
      puts "Woof!"
    end
